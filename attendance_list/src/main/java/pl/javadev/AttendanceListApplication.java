@@ -1,0 +1,13 @@
+package pl.javadev;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AttendanceListApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AttendanceListApplication.class, args);
+	}
+
+}
