@@ -1,0 +1,6 @@
+<h1>List of all lessons</h1>
+<ul>
+    <li ng-repeat="b in listCtrl.lessons">
+        <a ng-href="#details/{{b.id}}"> {{b.name}} - {{b.teacher}} - {{b.description}}</a>
+    </li>
+</ul>
